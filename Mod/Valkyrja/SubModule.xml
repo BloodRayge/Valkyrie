@@ -1,6 +1,6 @@
 <Module>
-  <Name value="Valkyrie"/>
-  <Id value="Valkyrie"/>
+  <Name value="Valkyrja"/>
+  <Id value="Valkyrja"/>
   <Version value="v1.0.0"/>
   <SingleplayerModule value="true"/>
   <MultiplayerModule value="false"/>
@@ -14,7 +14,7 @@
   </SubModules>
   <Xmls>
     <XmlNode>                
-      <XmlName id="NPCCharacters" path="spnpccharacters_Valkyrie"/>
+      <XmlName id="NPCCharacters" path="spnpccharacters_Valkyrja"/>
 	  <IncludedGameTypes>
         <GameType value = "Campaign"/>
         <GameType value = "CampaignStoryMode"/>
