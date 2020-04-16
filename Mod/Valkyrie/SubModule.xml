@@ -21,5 +21,13 @@
         <GameType value = "CustomGame"/>
       </IncludedGameTypes>
     </XmlNode>  
+	<XmlNode>
+      <XmlName type="1" id="Items" path="spitems_Valkyrie"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
   </Xmls>
 </Module>
