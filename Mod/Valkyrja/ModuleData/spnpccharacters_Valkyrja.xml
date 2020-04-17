@@ -1,233 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-  <NPCCharacter id="sturgian_recruit"
-                default_group="Infantry"
-                level="6"
-                civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t1"
-                name="{=BBJKgKj2}Sturgian Recruit"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.sturgia">
-    <face>
-      <face_key_template value="NPCCharacter.villager_sturgia" />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="20" />
-      <skill id="Riding"
-             value="5" />
-      <skill id="OneHanded"
-             value="20" />
-      <skill id="TwoHanded"
-             value="10" />
-      <skill id="Polearm"
-             value="20" />
-      <skill id="Bow"
-             value="5" />
-      <skill id="Crossbow"
-             value="0" />
-      <skill id="Throwing"
-             value="10" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Body"
-                 id="Item.nordic_padded_cloth" />
-      <equipment slot="Leg"
-                 id="Item.highland_leg_wrappings" />
-      <equipment slot="Head"
-                 id="northern_fur_cap" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Body"
-                 id="Item.nordic_padded_cloth" />
-      <equipment slot="Leg"
-                 id="Item.highland_leg_wrappings" />
-      <equipment slot="Gloves"
-                 id="Item.ragged_armwraps" />
-      <equipment slot="Head"
-                 id="nordic_fur_cap" />
-      <equipment slot="Cape"
-                 id="Item.scarf" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Body"
-                 id="Item.northern_leather_vest" />
-      <equipment slot="Leg"
-                 id="Item.highland_leg_wrappings" />
-      <equipment slot="Head"
-                 id="nordic_fur_cap" />
-    </equipmentSet>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sturgian_warrior" />
-      <upgrade_target id="NPCCharacter.sturgian_woodsman" />
-    </upgrade_targets>
-  </NPCCharacter>
-  <NPCCharacter id="sturgian_warrior"
-                default_group="Infantry"
-                level="11"
-                civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t1"
-                name="{=96pj2wxH}Sturgian Warrior"
-                occupation="Soldier"
-                culture="Culture.sturgia">
-    <face>
-      <face_key_template value="NPCCharacter.villager_sturgia" />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="40" />
-      <skill id="Riding"
-             value="15" />
-      <skill id="OneHanded"
-             value="40" />
-      <skill id="TwoHanded"
-             value="20" />
-      <skill id="Polearm"
-             value="40" />
-      <skill id="Bow"
-             value="15" />
-      <skill id="Crossbow"
-             value="5" />
-      <skill id="Throwing"
-             value="20" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.sturgia_sword_1_t2" />
-      <equipment slot="Item1"
-                 id="Item.northern_scouts_shield" />
-      <equipment slot="Head"
-                 id="Item.northern_fur_cap" />
-      <equipment slot="Gloves"
-                 id="Item.buttoned_leather_bracers" />
-      <equipment slot="Body"
-                 id="Item.northern_padded_gambeson" />
-      <equipment slot="Leg"
-                 id="Item.highland_leg_wrappings" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item1"
-                 id="Item.light_horsemans_kite_shield" />
-      <equipment slot="Head"
-                 id="Item.nordic_fur_cap" />
-      <equipment slot="Body"
-                 id="Item.northern_padded_gambeson" />
-      <equipment slot="Leg"
-                 id="Item.highland_leg_wrappings" />
-      <equipment slot="Gloves"
-                 id="Item.ragged_armwraps" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.sturgia_axe_2_t2" />
-      <equipment slot="Item1"
-                 id="Item.light_horsemans_kite_shield" />
-      <equipment slot="Head"
-                 id="Item.roughhide_cap" />
-      <equipment slot="Body"
-                 id="Item.northern_leather_vest" />
-      <equipment slot="Leg"
-                 id="Item.highland_leg_wrappings" />
-      <equipment slot="Gloves"
-                 id="Item.ragged_armwraps" />
-      <equipment slot="Cape"
-                 id="Item.scarf" />
-    </equipmentSet>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sturgian_soldier" />
-    </upgrade_targets>
-  </NPCCharacter>
-  <NPCCharacter id="sturgian_soldier"
-                default_group="Infantry"
-                level="16"
-                civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t2"
-                name="{=brlJJW5I}Sturgian Soldier"
-                occupation="Soldier"
-                culture="Culture.sturgia"
-                skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
-    <face>
-      <face_key_template value="NPCCharacter.villager_sturgia" />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="70" />
-      <skill id="Riding"
-             value="30" />
-      <skill id="OneHanded"
-             value="70" />
-      <skill id="TwoHanded"
-             value="40" />
-      <skill id="Polearm"
-             value="70" />
-      <skill id="Bow"
-             value="30" />
-      <skill id="Crossbow"
-             value="10" />
-      <skill id="Throwing"
-             value="40" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.sturgia_axe_3_t3" />
-      <equipment slot="Item1"
-                 id="Item.leather_round_shield" />
-      <equipment slot="Item2"
-                 id="Item.northern_spear_2_t3" />
-      <equipment slot="Head"
-                 id="Item.sturgian_helmet_open" />
-      <equipment slot="Body"
-                 id="Item.northern_padded_gambeson" />
-      <equipment slot="Leg"
-                 id="Item.highland_boots" />
-      <equipment slot="Cape"
-                 id="Item.scarf" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.sturgia_axe_3_t3" />
-      <equipment slot="Item1"
-                 id="Item.northern_round_shield" />
-      <equipment slot="Item2"
-                 id="Item.northern_spear_2_t3" />
-      <equipment slot="Head"
-                 id="Item.sturgian_helmet_base" />
-      <equipment slot="Body"
-                 id="Item.northern_padded_gambeson" />
-      <equipment slot="Leg"
-                 id="Item.highland_boots" />
-      <equipment slot="Gloves"
-                 id="Item.leather_gloves" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.sturgia_axe_3_t3" />
-      <equipment slot="Item1"
-                 id="Item.northern_round_shield" />
-      <equipment slot="Item2"
-                 id="Item.northern_spear_2_t3" />
-      <equipment slot="Head"
-                 id="Item.sturgian_helmet_base" />
-      <equipment slot="Body"
-                 id="Item.northern_padded_gambeson" />
-      <equipment slot="Leg"
-                 id="Item.highland_boots" />
-      <equipment slot="Gloves"
-                 id="Item.buttoned_leather_bracers" />
-      <equipment slot="Cape"
-                 id="Item.wrapped_scarf" />
-    </equipmentSet>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sturgian_spearman" />
-      <upgrade_target id="NPCCharacter.sturgian_berzerker" />
-    </upgrade_targets>
-  </NPCCharacter>
+
   <NPCCharacter id="sturgian_shock_troop"
                 default_group="Infantry"
                 level="26"
@@ -240,15 +13,15 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="100" />
+             value="130" />
       <skill id="Riding"
              value="45" />
       <skill id="OneHanded"
-             value="100" />
+             value="130" />
       <skill id="TwoHanded"
              value="60" />
       <skill id="Polearm"
-             value="100" />
+             value="130" />
       <skill id="Bow"
              value="45" />
       <skill id="Crossbow"
@@ -260,7 +33,7 @@
       <equipment slot="Item0"
                  id="Item.sturgia_sword_5_t4" />
       <equipment slot="Item1"
-                  id="Item.leather_round_shield" />
+                 id="Item.leather_round_shield" />
       <equipment slot="Item2"
                  id="Item.sturgia_polearm_1_t5" />
       <equipment slot="Head"
@@ -312,6 +85,7 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="sturgian_veteran_warrior"
                 default_group="Infantry"
                 formation_position_preference="Back"
@@ -333,13 +107,13 @@
       <skill id="TwoHanded"
              value="80" />
       <skill id="Polearm"
-             value="130" />
+             value="80" />
       <skill id="Bow"
              value="60" />
       <skill id="Crossbow"
              value="20" />
       <skill id="Throwing"
-             value="80" />
+             value="110" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -397,6 +171,7 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="sturgian_warrior_son"
                 default_group="Infantry"
                 level="11"
@@ -410,9 +185,9 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="20" />
-      <skill id="Riding"
              value="40" />
+      <skill id="Riding"
+             value="20" />
       <skill id="OneHanded"
              value="60" />
       <skill id="TwoHanded"
@@ -464,6 +239,7 @@
       <upgrade_target id="NPCCharacter.varyag" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="varyag"
                 default_group="Infantry"
                 level="16"
@@ -476,9 +252,9 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="30" />
-      <skill id="Riding"
              value="70" />
+      <skill id="Riding"
+             value="30" />
       <skill id="OneHanded"
              value="100" />
       <skill id="TwoHanded"
@@ -490,7 +266,7 @@
       <skill id="Crossbow"
              value="10" />
       <skill id="Throwing"
-             value="10" />
+             value="40" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0"
@@ -544,6 +320,7 @@
       <upgrade_target id="NPCCharacter.varyag_veteran" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="varyag_veteran"
                 default_group="Infantry"
                 level="21"
@@ -556,21 +333,21 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="40" />
-      <skill id="Riding"
              value="110" />
+      <skill id="Riding"
+             value="60" />
       <skill id="OneHanded"
              value="150" />
       <skill id="TwoHanded"
              value="15" />
       <skill id="Polearm"
-             value="40" />
+             value="80" />
       <skill id="Bow"
-             value="110" />
+             value="40" />
       <skill id="Crossbow"
              value="15" />
       <skill id="Throwing"
-             value="15" />
+             value="60" />
     </skills>
     <equipmentSet>
       <!--<equipment slot="Item0" id="Item.nordic_ancestral_sword" />-->
@@ -618,7 +395,7 @@
                  id="Item.leather_round_shield" />
       <equipment slot="Item2"
                  id="Item.northern_throwing_axe_1_t1" />
-            <equipment slot="Item3"
+      <equipment slot="Item3"
                  id="Item.northern_spear_3_t4" />
       <equipment slot="Body"
                  id="Item.nordic_hauberk" />
@@ -635,6 +412,7 @@
       <upgrade_target id="NPCCharacter.druzhinnik" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="druzhinnik"
                 default_group="Cavalry"
                 level="26"
@@ -656,9 +434,9 @@
       <skill id="TwoHanded"
              value="20" />
       <skill id="Polearm"
-             value="50" />
-      <skill id="Bow"
              value="160" />
+      <skill id="Bow"
+             value="50" />
       <skill id="Crossbow"
              value="20" />
       <skill id="Throwing"
@@ -735,6 +513,7 @@
       <upgrade_target id="NPCCharacter.druzhinnik_champion" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="druzhinnik_champion"
                 default_group="Cavalry"
                 level="31"
@@ -756,9 +535,9 @@
       <skill id="TwoHanded"
              value="25" />
       <skill id="Polearm"
-             value="60" />
-      <skill id="Bow"
              value="220" />
+      <skill id="Bow"
+             value="60" />
       <skill id="Crossbow"
              value="25" />
       <skill id="Throwing"
@@ -833,6 +612,7 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="sturgian_woodsman"
                 default_group="Ranged"
                 level="11"
@@ -906,6 +686,7 @@
       <upgrade_target id="NPCCharacter.sturgian_hunter" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="sturgian_hunter"
                 default_group="Ranged"
                 level="16"
@@ -996,6 +777,7 @@
       <upgrade_target id="NPCCharacter.sturgian_archer" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="sturgian_archer"
                 default_group="Ranged"
                 level="21"
@@ -1008,7 +790,7 @@
     </face>
     <skills>
       <skill id="Athletics"
-             value="60" />
+             value="100" />
       <skill id="Riding"
              value="100" />
       <skill id="OneHanded"
@@ -1086,6 +868,7 @@
       <upgrade_target id="NPCCharacter.sturgian_veteran_bowman" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="sturgian_veteran_bowman"
                 default_group="Ranged"
                 level="26"
@@ -1171,6 +954,7 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="sturgian_brigand"
                 default_group="Infantry"
                 level="16"
@@ -1255,6 +1039,7 @@
       <upgrade_target id="NPCCharacter.sturgian_hardened_brigand" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="sturgian_hardened_brigand"
                 default_group="Cavalry"
                 level="21"
@@ -1272,9 +1057,9 @@
       <skill id="Riding"
              value="100" />
       <skill id="OneHanded"
-             value="60" />
-      <skill id="TwoHanded"
              value="100" />
+      <skill id="TwoHanded"
+             value="60" />
       <skill id="Polearm"
              value="45" />
       <skill id="Bow"
@@ -1360,6 +1145,7 @@
       <upgrade_target id="NPCCharacter.sturgian_horse_raider" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="sturgian_horse_raider"
                 default_group="Cavalry"
                 level="26"
@@ -1461,6 +1247,7 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="sturgian_berzerker"
                 default_group="Infantry"
                 level="21"
@@ -1539,87 +1326,7 @@
       <upgrade_target id="NPCCharacter.sturgian_ulfhednar" />
     </upgrade_targets>
   </NPCCharacter>
-  <NPCCharacter id="sturgian_spearman"
-                default_group="Infantry"
-                level="21"
-                civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
-                name="{=CfO7eDsv}Sturgian Spearman"
-                occupation="Soldier"
-                culture="Culture.sturgia">
-    <face>
-      <face_key_template value="NPCCharacter.villager_sturgia" />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="100" />
-      <skill id="Riding"
-             value="45" />
-      <skill id="OneHanded"
-             value="100" />
-      <skill id="TwoHanded"
-             value="100" />
-      <skill id="Polearm"
-             value="60" />
-      <skill id="Bow"
-             value="45" />
-      <skill id="Crossbow"
-             value="15" />
-      <skill id="Throwing"
-             value="60" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.northern_spear_2_t3" />
-      <equipment slot="Item2"
-                 id="Item.sturgia_sword_3_t3" />
-      <equipment slot="Item1"
-                 id="Item.northern_scouts_shield" />
-      <equipment slot="Head"
-                 id="Item.sturgia_heavy_cavalary_helmet" />
-      <equipment slot="Body"
-                 id="Item.northern_leather_tabard" />
-      <equipment slot="Leg"
-                 id="Item.strapped_mail_chausses" />
-      <equipment slot="Gloves"
-                 id="Item.northern_brass_bracers" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.northern_spear_2_t3" />
-      <equipment slot="Item2"
-                 id="Item.sturgia_sword_2_t3" />
-      <equipment slot="Item1"
-                 id="Item.northern_scouts_shield" />
-      <equipment slot="Head"
-                 id="Item.sturgia_heavy_cavalary_helmet" />
-      <equipment slot="Body"
-                 id="Item.northern_leather_tabard" />
-      <equipment slot="Leg"
-                 id="Item.strapped_mail_chausses" />
-      <equipment slot="Gloves"
-                 id="Item.northern_brass_bracers" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.northern_spear_2_t3" />
-      <equipment slot="Item2"
-                 id="Item.sturgia_sword_2_t3" />
-      <equipment slot="Item1"
-                 id="Item.northern_scouts_shield" />
-      <equipment slot="Head"
-                 id="Item.sturgia_heavy_cavalary_helmet" />
-      <equipment slot="Body"
-                 id="Item.northern_leather_tabard" />
-      <equipment slot="Leg"
-                 id="Item.strapped_mail_chausses" />
-      <equipment slot="Gloves"
-                 id="Item.northern_brass_bracers" />
-    </equipmentSet>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sturgian_shock_troop" />
-      <upgrade_target id="NPCCharacter.sturgian_veteran_warrior" />
-    </upgrade_targets>
-  </NPCCharacter>
+
   <NPCCharacter id="sturgian_ulfhednar"
                 default_group="Infantry"
                 level="26"
@@ -1645,11 +1352,11 @@
       <skill id="Riding"
              value="60" />
       <skill id="OneHanded"
-             value="130" />
-      <skill id="TwoHanded"
              value="80" />
-      <skill id="Polearm"
+      <skill id="TwoHanded"
              value="130" />
+      <skill id="Polearm"
+             value="80" />
       <skill id="Bow"
              value="60" />
       <skill id="Crossbow"
@@ -1707,4 +1414,5 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
-<NPCCharacters>
+
+</NPCCharacters>
