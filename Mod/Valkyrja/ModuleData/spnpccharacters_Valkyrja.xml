@@ -1,6 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
+  <NPCCharacter id="sturgian_spearman"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
+                name="{=CfO7eDsv}Sturgian Spearman"
+                occupation="Soldier"
+                culture="Culture.sturgia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="45" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.northern_spear_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.sturgia_sword_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.northern_scouts_shield" />
+      <equipment slot="Head"
+                 id="Item.sturgia_heavy_cavalary_helmet" />
+      <equipment slot="Body"
+                 id="Item.northern_leather_tabard" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Gloves"
+                 id="Item.northern_brass_bracers" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.northern_spear_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.sturgia_sword_2_t3" />
+      <equipment slot="Item1"
+                 id="Item.northern_scouts_shield" />
+      <equipment slot="Head"
+                 id="Item.sturgia_heavy_cavalary_helmet" />
+      <equipment slot="Body"
+                 id="Item.northern_leather_tabard" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Gloves"
+                 id="Item.northern_brass_bracers" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.northern_spear_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.sturgia_sword_2_t3" />
+      <equipment slot="Item1"
+                 id="Item.northern_scouts_shield" />
+      <equipment slot="Head"
+                 id="Item.sturgia_heavy_cavalary_helmet" />
+      <equipment slot="Body"
+                 id="Item.northern_leather_tabard" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Gloves"
+                 id="Item.northern_brass_bracers" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.sturgian_shock_troop" />
+      <upgrade_target id="NPCCharacter.sturgian_veteran_warrior" />
+    </upgrade_targets>
+  </NPCCharacter>
+
   <NPCCharacter id="sturgian_shock_troop"
                 default_group="Infantry"
                 level="26"
@@ -617,9 +699,10 @@
                 default_group="Ranged"
                 level="11"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t1"
-                name="{=fdaZ3tri}Sturgian Woodsman"
+                name="{=fdaZ3tri}Sturgian Huntress"
                 occupation="Soldier"
-                culture="Culture.sturgia">
+                culture="Culture.sturgia"
+                is_female="true">
     <face>
       <face_key_template value="NPCCharacter.villager_sturgia" />
     </face>
@@ -691,9 +774,10 @@
                 default_group="Ranged"
                 level="16"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t2"
-                name="{=i17zuvS4}Sturgian Hunter"
+                name="{=i17zuvS4}Sturgian Woodswife"
                 occupation="Soldier"
-                culture="Culture.sturgia">
+                culture="Culture.sturgia"
+                is_female="true">
     <face>
       <face_key_template value="NPCCharacter.villager_sturgia" />
     </face>
@@ -782,9 +866,10 @@
                 default_group="Ranged"
                 level="21"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t2"
-                name="{=1WfDVpya}Sturgian Archer"
+                name="{=1WfDVpya}Sturgian Markswoman"
                 occupation="Soldier"
-                culture="Culture.sturgia">
+                culture="Culture.sturgia"
+                is_female="true">
     <face>
       <face_key_template value="NPCCharacter.villager_sturgia" />
     </face>
@@ -873,10 +958,11 @@
                 default_group="Ranged"
                 level="26"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
-                name="{=7WWUxI6y}Sturgian Veteran Bowman"
+                name="{=7WWUxI6y}Sturgian Veteran Markswoman"
                 occupation="Soldier"
                 culture="Culture.sturgia"
-                skill_template="NPCCharacter.ranged_skirmisher_level26_template_skills">
+                skill_template="NPCCharacter.ranged_skirmisher_level26_template_skills"
+                is_female="true">
     <face>
       <face_key_template value="NPCCharacter.villager_sturgia" />
     </face>
