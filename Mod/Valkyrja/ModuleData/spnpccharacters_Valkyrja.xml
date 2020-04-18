@@ -1326,7 +1326,7 @@
                 default_group="Infantry"
                 level="21"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
-                name="{=a9b2fKYR}Sturgian Berserker"
+                name="{=a9b2fKYR}Sturgian Væringjar"
                 occupation="Soldier"
                 culture="Culture.sturgia">
     <face>
@@ -1407,7 +1407,7 @@
                 default_group="Infantry"
                 level="26"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t2"
-                name="{=k4EiLrU0}Sturgian Ulfhednar"
+                name="{=k4EiLrU0}Sturgian Væringjar Champion"
                 occupation="Soldier"
                 culture="Culture.sturgia">
     <face>
