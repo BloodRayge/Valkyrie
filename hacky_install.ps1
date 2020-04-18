@@ -4,3 +4,4 @@ $destinationModFolder = Join-Path $destinationRoot Valkyrja
 
 Remove-Item $destinationModFolder -Recurse
 Copy-Item -Path $sourceRoot -Recurse -Destination $destinationRoot -Container
+pause
