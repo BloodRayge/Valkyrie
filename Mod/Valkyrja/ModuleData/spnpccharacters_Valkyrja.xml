@@ -189,7 +189,7 @@
                 level="26"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
                 name="{=CRzrHomf}Sturgian Družinnik Shock Cavalry"
-                upgrade_requires="ItemCategory.horse"
+                upgrade_requires="ItemCategory.war_horse"
                 occupation="Soldier"
                 culture="Culture.sturgia">
     <face>
