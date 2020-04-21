@@ -1,98 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-  <NPCCharacter id="sturgian_spearman"
-                default_group="Infantry"
-                level="21"
-                civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
-                name="{=CfO7eDsv}Sturgian Družinnik"
-                occupation="Soldier"
-                culture="Culture.sturgia">
-    <face>
-      <face_key_template value="NPCCharacter.villager_sturgia" />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="100" />
-      <skill id="Riding"
-             value="60" />
-      <skill id="OneHanded"
-             value="100" />
-      <skill id="TwoHanded"
-             value="15" />
-      <skill id="Polearm"
-             value="100" />
-      <skill id="Bow"
-             value="40" />
-      <skill id="Crossbow"
-             value="15" />
-      <skill id="Throwing"
-             value="60" />
-    </skills>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.sturgia_axe_4_tnorthern_spear_3_t4" />
-      <equipment slot="Item1"
-                 id="Item.sturgia_sword_2_t3" />
-      <equipment slot="Item2"
-                 id="Item.fortified_kite_shield" />
-      <equipment slot="Item3"
-                 id="Item.northern_throwing_axe_1_t1" />
-      <equipment slot="Body"
-                 id="Item.nordic_hauberk" />
-      <equipment slot="Leg"
-                 id="Item.mail_chausses" />
-      <equipment slot="Head"
-                 id="Item.spiked_helmet" />
-      <equipment slot="Cape"
-                 id="Item.scarf" />
-      <equipment slot="Gloves"
-                 id="Item.reinforced_leather_vambraces" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.sturgia_axe_4_tnorthern_spear_3_t4" />
-      <equipment slot="Item1"
-                 id="Item.sturgia_sword_2_t3" />
-      <equipment slot="Item2"
-                 id="Item.fortified_kite_shield" />
-      <equipment slot="Item3"
-                 id="Item.northern_throwing_axe_1_t1" />
-      <equipment slot="Body"
-                 id="Item.nordic_hauberk" />
-      <equipment slot="Leg"
-                 id="Item.mail_chausses" />
-      <equipment slot="Head"
-                 id="Item.spiked_helmet" />
-      <equipment slot="Gloves"
-                 id="Item.reinforced_leather_vambraces" />
-    </equipmentSet>
-    <equipmentSet>
-      <equipment slot="Item0"
-                 id="Item.sturgia_axe_4_tnorthern_spear_3_t4" />
-      <equipment slot="Item1"
-                 id="Item.sturgia_sword_2_t3" />
-      <equipment slot="Item2"
-                 id="Item.fortified_kite_shield" />
-      <equipment slot="Item3"
-                 id="Item.northern_throwing_axe_1_t1" />
-      <equipment slot="Body"
-                 id="Item.nordic_hauberk" />
-      <equipment slot="Leg"
-                 id="Item.mail_chausses" />
-      <equipment slot="Head"
-                 id="Item.spiked_helmet" />
-      <equipment slot="Cape"
-                 id="Item.scarf" />
-      <equipment slot="Gloves"
-                 id="Item.reinforced_leather_vambraces" />
-    </equipmentSet>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sturgian_shock_troop" />
-      <upgrade_target id="NPCCharacter.sturgian_veteran_warrior" />
-    </upgrade_targets>
-  </NPCCharacter>
-
   <NPCCharacter id="sturgian_shock_troop"
                 default_group="Infantry"
                 level="26"
@@ -1448,6 +1356,98 @@
     </equipmentSet>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.sturgian_ulfhednar" />
+    </upgrade_targets>
+  </NPCCharacter>
+
+  <NPCCharacter id="sturgian_spearman"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
+                name="{=CfO7eDsv}Sturgian Družinnik"
+                occupation="Soldier"
+                culture="Culture.sturgia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.sturgia_axe_4_tnorthern_spear_3_t4" />
+      <equipment slot="Item1"
+                 id="Item.sturgia_sword_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.fortified_kite_shield" />
+      <equipment slot="Item3"
+                 id="Item.northern_throwing_axe_1_t1" />
+      <equipment slot="Body"
+                 id="Item.nordic_hauberk" />
+      <equipment slot="Leg"
+                 id="Item.mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.spiked_helmet" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.reinforced_leather_vambraces" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.sturgia_axe_4_tnorthern_spear_3_t4" />
+      <equipment slot="Item1"
+                 id="Item.sturgia_sword_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.fortified_kite_shield" />
+      <equipment slot="Item3"
+                 id="Item.northern_throwing_axe_1_t1" />
+      <equipment slot="Body"
+                 id="Item.nordic_hauberk" />
+      <equipment slot="Leg"
+                 id="Item.mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.spiked_helmet" />
+      <equipment slot="Gloves"
+                 id="Item.reinforced_leather_vambraces" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.sturgia_axe_4_tnorthern_spear_3_t4" />
+      <equipment slot="Item1"
+                 id="Item.sturgia_sword_2_t3" />
+      <equipment slot="Item2"
+                 id="Item.fortified_kite_shield" />
+      <equipment slot="Item3"
+                 id="Item.northern_throwing_axe_1_t1" />
+      <equipment slot="Body"
+                 id="Item.nordic_hauberk" />
+      <equipment slot="Leg"
+                 id="Item.mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.spiked_helmet" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.reinforced_leather_vambraces" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.sturgian_shock_troop" />
+      <upgrade_target id="NPCCharacter.sturgian_veteran_warrior" />
     </upgrade_targets>
   </NPCCharacter>
 
