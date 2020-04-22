@@ -5,8 +5,10 @@ As Valkyries take fallen warriors and elevate them to Valhalla, this mod shall e
 
 ![](SturgiaTroopModOutline.png)
 
+Credit for EVERYTHING in the CustomTroopUpgrades folder goes to Designer225 and created with their code from [Custom Troop Upgrade and Replacer Mod](https://www.nexusmods.com/mountandblade2bannerlord/mods/712)
+
 ## Licenses
-Everything herein is licensed under the [MIT License](https://tldrlegal.com/license/mit-license).
+This mod is licensed under the [MIT License](https://tldrlegal.com/license/mit-license).
 
 Please email me and ask permission before using any part of my mod for your own projects.
 
