@@ -50,25 +50,25 @@
     <!-- ("Everything" does not include IDs and base character IDs. Also, 8388607 - 8388575 = 32, which is the flag to indicate replacing upgrades.) -->
     <!-- The possible number flags can be found on the mod's GitHub wiki page. Use bitwise operation to obtain a replace flag. -->
     <!-- Absent a ReplaceFlag, the default is 8388607, which means replace everything. Using 0 will cause the mod to default to 8388607. -->
-    <CustomTroopReplacement Source="sturgian_spearman" Destination="sturgian_spearman" />
-    <CustomTroopReplacement Source="sturgian_shock_troop" Destination="sturgian_shock_troop" />
-    <CustomTroopReplacement Source="sturgian_veteran_warrior" Destination="sturgian_veteran_warrior" />
-    <CustomTroopReplacement Source="sturgian_berzerker" Destination="sturgian_berzerker" />
-    <CustomTroopReplacement Source="sturgian_ulfhednar" Destination="sturgian_ulfhednar" />
+    <CustomTroopReplacement Source="sturgian_spearman_new" Destination="sturgian_spearman" />
+    <CustomTroopReplacement Source="sturgian_shock_troop_new" Destination="sturgian_shock_troop" />
+    <CustomTroopReplacement Source="sturgian_veteran_warrior_new" Destination="sturgian_veteran_warrior" />
+    <CustomTroopReplacement Source="sturgian_berzerker_new" Destination="sturgian_berzerker" />
+    <CustomTroopReplacement Source="sturgian_ulfhednar_new" Destination="sturgian_ulfhednar" />
     <!-- Sturgian ranged -->
-    <CustomTroopReplacement Source="sturgian_woodsman" Destination="sturgian_woodsman" />
-    <CustomTroopReplacement Source="sturgian_hunter" Destination="sturgian_hunter" />
-    <CustomTroopReplacement Source="sturgian_archer" Destination="sturgian_archer" />
-    <CustomTroopReplacement Source="sturgian_veteran_bowman" Destination="sturgian_veteran_bowman" />
-    <CustomTroopReplacement Source="sturgian_brigand" Destination="sturgian_brigand" />
-    <CustomTroopReplacement Source="sturgian_hardened_brigand" Destination="sturgian_hardened_brigand" />
-    <CustomTroopReplacement Source="sturgian_horse_raider" Destination="sturgian_horse_raider" />
+    <CustomTroopReplacement Source="sturgian_woodsman_new" Destination="sturgian_woodsman" />
+    <CustomTroopReplacement Source="sturgian_hunter_new" Destination="sturgian_hunter" />
+    <CustomTroopReplacement Source="sturgian_archer_new" Destination="sturgian_archer" />
+    <CustomTroopReplacement Source="sturgian_veteran_bowman_new" Destination="sturgian_veteran_bowman" />
+    <CustomTroopReplacement Source="sturgian_brigand_new" Destination="sturgian_brigand" />
+    <CustomTroopReplacement Source="sturgian_hardened_brigand_new" Destination="sturgian_hardened_brigand" />
+    <CustomTroopReplacement Source="sturgian_horse_raider_new" Destination="sturgian_horse_raider" />
 
     <!-- Warrior sons and varyags -->
-    <CustomTroopReplacement Source="sturgian_warrior_son" Destination="sturgian_warrior_son" />
-    <CustomTroopReplacement Source="varyag" Destination="varyag" />
-    <CustomTroopReplacement Source="varyag_veteran" Destination="varyag_veteran" />
-    <CustomTroopReplacement Source="druzhinnik" Destination="druzhinnik" />
-    <CustomTroopReplacement Source="druzhinnik_champion" Destination="druzhinnik_champion" />
+    <CustomTroopReplacement Source="sturgian_warrior_son_new" Destination="sturgian_warrior_son" />
+    <CustomTroopReplacement Source="varyag_new" Destination="varyag" />
+    <CustomTroopReplacement Source="varyag_veteran_new" Destination="varyag_veteran" />
+    <CustomTroopReplacement Source="druzhinnik_new" Destination="druzhinnik" />
+    <CustomTroopReplacement Source="druzhinnik_champion_new" Destination="druzhinnik_champion" />
   </CustomTroopReplaceOperations>
 </CustomTroopUpgrades>

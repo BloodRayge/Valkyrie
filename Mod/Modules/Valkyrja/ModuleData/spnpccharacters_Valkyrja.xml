@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-  <NPCCharacter id="sturgian_shock_troop"
+  <NPCCharacter id="sturgian_shock_troop_new"
                 default_group="Infantry"
                 level="26"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
@@ -92,7 +92,7 @@
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="sturgian_veteran_warrior"
+  <NPCCharacter id="sturgian_veteran_warrior_new"
                 default_group="Cavalry"
                 level="26"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
@@ -190,7 +190,7 @@
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="sturgian_warrior_son"
+  <NPCCharacter id="sturgian_warrior_son_new"
                 default_group="Infantry"
                 level="11"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t1"
@@ -258,7 +258,7 @@
     </upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="varyag"
+  <NPCCharacter id="varyag_new"
                 default_group="Infantry"
                 level="16"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t2"
@@ -351,7 +351,7 @@
     </upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="varyag_veteran"
+  <NPCCharacter id="varyag_veteran_new"
                 default_group="Infantry"
                 level="21"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
@@ -438,7 +438,7 @@
     </upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="druzhinnik"
+  <NPCCharacter id="druzhinnik_new"
                 default_group="Infantry"
                 level="26"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t2"
@@ -534,7 +534,7 @@
     </upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="druzhinnik_champion"
+  <NPCCharacter id="druzhinnik_champion_new"
                 default_group="Infantry"
                 level="31"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
@@ -619,7 +619,7 @@
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="sturgian_woodsman"
+  <NPCCharacter id="sturgian_woodsman_new"
                 default_group="Ranged"
                 level="11"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t1"
@@ -694,7 +694,7 @@
     </upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="sturgian_hunter"
+  <NPCCharacter id="sturgian_hunter_new"
                 default_group="Ranged"
                 level="16"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t2"
@@ -786,7 +786,7 @@
     </upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="sturgian_archer"
+  <NPCCharacter id="sturgian_archer_new"
                 default_group="Ranged"
                 level="21"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t2"
@@ -878,7 +878,7 @@
     </upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="sturgian_veteran_bowman"
+  <NPCCharacter id="sturgian_veteran_bowman_new"
                 default_group="Ranged"
                 level="26"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
@@ -965,7 +965,7 @@
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="sturgian_brigand"
+  <NPCCharacter id="sturgian_brigand_new"
                 default_group="Infantry"
                 formation_position_preference="Back"
                 level="16"
@@ -1060,7 +1060,7 @@
     </upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="sturgian_hardened_brigand"
+  <NPCCharacter id="sturgian_hardened_brigand_new"
                 default_group="Cavalry"
                 level="21"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t2"
@@ -1167,7 +1167,7 @@
     </upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="sturgian_horse_raider"
+  <NPCCharacter id="sturgian_horse_raider_new"
                 default_group="Cavalry"
                 level="26"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
@@ -1272,7 +1272,7 @@
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="sturgian_berzerker"
+  <NPCCharacter id="sturgian_berzerker_new"
                 default_group="Infantry"
                 level="21"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
@@ -1359,7 +1359,7 @@
     </upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="sturgian_spearman"
+  <NPCCharacter id="sturgian_spearman_new"
                 default_group="Infantry"
                 level="21"
                 civilianTemplate="NPCCharacter.sturgia_troop_civilian_template_t3"
@@ -1451,7 +1451,7 @@
     </upgrade_targets>
   </NPCCharacter>
 
-  <NPCCharacter id="sturgian_ulfhednar"
+  <NPCCharacter id="sturgian_ulfhednar_new"
                 default_group="Infantry"
                 formation_position_preference="Back"
                 level="26"
